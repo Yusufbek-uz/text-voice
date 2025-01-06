@@ -1,0 +1,30 @@
+// function speak() {
+//     let text = document.getElementById("text").value;
+//     let speech = new SpeechSynthesisUtterance();
+//     speech.text = text;
+//     speechSynthesis.speak(speech);
+// }
+
+
+// function loadVoices(){
+//     voices = window.speechSynthesis.getVoices();
+
+//     if(voices.length > 0){
+//         voices.forEach(voice => {
+//             const option = document.createElement('option');
+//             option.value = voice.name;
+//             option.innerText = `${voice.name} ${voice.lang}`;
+//             select.appendChild(option);
+//         });
+//     }
+// }
+
+// btn.addEventListener('click',()=>{
+//     speak();
+// });
+
+// function gapir() {
+//     const speech = new SpeechSynthesisUtterance();
+//     speech.text = textInput.value;
+//     speechSynthesis.speak(speech);
+// }
